@@ -25,7 +25,7 @@ Challenge: to build a profile card component and get it looking as close to the 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://syzwnftr.github.io/profile-card-component/
 
 ## My process
 
