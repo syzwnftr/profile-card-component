@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125rem;
+  overflow: hidden;
+}
+
+main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 44vh right 38vw, top 44vh left 38vw;
+}
+
+.profileInfo h1,
+.statsCol h2 {
+  color: hsl(229, 23%, 23%);
+}
+
+.profileCard {
+  max-width: 85%;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  background-color: white;
+  z-index: 1;
+}
+
+.bgPattern {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3.3rem;
+}
+
+.profileInfo > * {
+  margin-bottom: 1rem;
+}
+
+.profileInfo p {
+  font-size: 0.8rem;
+  margin-top: -0.5rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+  color: hsl(227, 10%, 46%);
+}
+
+.profileInfo img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.profileInfo h1 {
+  font-size: 1.125rem;
+}
+
+.profileInfo h1 span {
+  font-weight: 400;
+  margin-left: 0.3rem;
+  color: hsl(227, 10%, 46%);
+}
+
+.profileStats {
+  border-top: 1px solid hsla(0, 0%, 59%, 0.25);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.statsCol {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.statsCol h2 {
+  margin-bottom: 0.3rem;
+}
+
+.statsCol p {
+  font-size: 0.6rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: hsl(0, 0%, 59%);
+}
+
+@media (min-width: 40rem) {
+  main {
+    background-position: bottom 40vh right 47vw, top 55vh left 47vw;
+  }
+}
